@@ -1,0 +1,65 @@
+<!--@name: Assignement1 * @Course Code: SODV1201 * @class: Software Development Diploma program. * @author: Thomas Fonseca
+-->
+
+<!DOCTYPE html>
+<html lang="En">
+
+<head>
+    <title>THOMAS FONSECA</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="odv1201_a1_Thomas Fonseca_index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+
+
+
+</head>
+<STYLE>
+    A {
+        text-decoration: none;
+        color: #fffefe;
+
+    }
+</STYLE>
+
+<body>
+
+    <body>
+        <nav>
+
+            <ul class="links">
+                <li><a href="../Assignment 1_HTML/index.html">Home</a></li>
+        <li><a href="../Assignment 1_HTML/List.html">List of Staff</a></li>
+        <li><a href="../Assignment 1_HTML/temperature.html">Temperature</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="wrapper">
+
+            <section class="calculator">
+                <p class="header1">Temperature Converter</p>
+                <label>Fahrenheit</label>
+                <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+                    oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+                </p>
+                <button type="text" onclick="button()">Calculate</button>
+                <p class="result1">Celcius: <span id="outputCelcius"></span></p>
+                <p class="result1">Kelvin: <span id="outputKelvin"></span></p>
+        </div>
+
+        </section>
+
+        <footer class="bar">
+            <p>
+                Developed by Thomas
+            <p>
+                Copyright &copy; 2014-
+                <script>document.write(new Date())</script> Thomas All Rights Reserved
+            </p>
+        </footer>
+
+        <body>
+
+
+</html>
